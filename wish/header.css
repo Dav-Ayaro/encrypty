@@ -1,0 +1,40 @@
+*{
+    margin: auto;
+    all:unset;
+} 
+.head{
+    background: #f3f3f3;
+    text-align: right;
+    padding: 30px;
+}
+.head h1{
+    text-align: left;
+    position: absolute;
+    color: #000;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+}
+.head ul{
+    display: inline-flex;
+    
+}
+.head ul li{
+    list-style: none;
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head ul li  a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    /*border-bottom: 4px rgb(129, 4, 4) solid;*/
+}
+.head ul li i{
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+}
+
+

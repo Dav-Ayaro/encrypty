@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    font-family: poppins;
+}
+.container h1{
+    text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.container form{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    text-transform: capitalize;
+    font-weight: lighter;
+
+}
+.container form input{
+    margin: 5px;
+    margin-top: 0;
+    width: 30%;
+    height: 40px;
+    outline: rgb(2,2,53);  
+    border: 1px solid rgb(2,2,53);  
+    border-radius: 5px;
+}
+.container button{
+    width: 20%;
+    background: black;
+    height: 40px;
+    margin: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    transition: all 1.5s ease;
+}
+.container button:hover{
+    background-color: rgb(2,2,53);
+    color: white;
+    font-size: 15px;
+    transition: all 1.5s ease;
+ 
+}
